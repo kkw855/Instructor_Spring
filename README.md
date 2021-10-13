@@ -7,7 +7,7 @@ $ docker run -d \
 --name postgres \
 -e POSTGRES_USER=postgres \
 -e POSTGRES_PASSWORD=postgres \
--e POSTGRES_DB=demo \
+-e POSTGRES_DB=instructor \
 -v postgres \
 -p 5432:5432 \
 postgres:13
