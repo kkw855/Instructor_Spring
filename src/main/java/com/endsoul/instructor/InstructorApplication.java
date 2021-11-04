@@ -7,10 +7,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-public class LoginApplication {
+public class InstructorApplication {
 
   public static void main(String[] args) {
-    SpringApplication.run(LoginApplication.class, args);
+    SpringApplication.run(InstructorApplication.class, args);
   }
 
   // @RestController 에서 HTTP 요청과 응답에 Vavr 자료형을 사용했을 때 정상적으로 converting 해준다.
